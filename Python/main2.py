@@ -1,5 +1,6 @@
 from car2 import Car # Importo la clase Car de mi file car para poder crear objetos concretos
 from account2 import Account # Lo mismo hago con Account
+from uberx import UberX # Lo mismo hago con UberX
 
 if __name__ == "__main__":
     print("Hola Mundo")
@@ -25,3 +26,14 @@ if __name__ == "__main__":
     # car2.driver = "Matha"
     print(vars(car2))
     print(vars(car2.driver))
+
+    car3 = UberX("ETX983",Account("Nicole Fernandez","A37971987"),"Ford","Ka")
+    print(car3.license)
+    print(car3.driver.name)
+    print(car3.driver.document)
+    print(car3.brand)
+    print(car3.model)
+
+    """
+    Con esta forma de imprimir, imprimo directamente los valores que asumen cada atributo de un objeto
+    """
