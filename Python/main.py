@@ -2,6 +2,11 @@ from car import Car # Importo la clase Car de mi file car para poder crear objet
 
 if __name__ == "__main__":
     print("Hola Mundo")
+
+    """ 
+    Aca estoy creando objetos desde las clases pero sin usar un metodo constructor. 
+    """
+
     car = Car() #Creo mi primer objeto car usando la clase car que ya defini en mi otro file
     car.license = "AMS234" #Defino los atributos de objeto.
     car.driver = "Andres Herrera" # ""
